@@ -28,6 +28,7 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../imagens/frame-iphone.png');
+    background-size: cover;
     width: 311px;
     height: 627px;
 }
@@ -38,8 +39,8 @@ section#botoes {
 }
 
 img.icon {
-    width: 3vw;
-    height: 6vh;
+    width: 45px;
+    height: 100%;
     margin-top: 35px;
     border-radius: 50%;
     transition-duration: 300ms;
