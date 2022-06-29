@@ -53,5 +53,4 @@ img:hover {
     border: 2px solid rgb(93, 93, 230);
     transform: translate(-3px, -3px);
     transition: transform 300ms, border 500ms;
-    transition-duration: 200ms;
 }
