@@ -6,20 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
     <style>
-        * {
+        *{
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
-        body {
-            width: 100vw;
-            height: 100vh;
-            background: black url('imagens/tela-instagram.jpg') top center scroll;
-            background-size: cover
+        html, body {
+            background-image: url('imagens/tela-instagram.jpg');
+            background-color: black;
+            background-attachment: local;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        footer {
+            background-color: red;
+            padding: 20px 0px;
+            position: relative;
+            top: 909px;
+        }
+        footer a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
         }
     </style>
 </head>
 <body>
-
+    <footer><a href="#">ACESSE EM</a></footer>
 </body>
 </html>
