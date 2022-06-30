@@ -52,5 +52,5 @@ img:hover {
     box-shadow: 4px 2px 8px 4px rgba(0, 0, 0, 0.288);
     border: 2px solid rgb(93, 93, 230);
     transform: translate(-3px, -3px);
-    transition: transform 300ms, border 500ms;
+    transition: transform 300ms;
 }
