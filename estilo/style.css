@@ -41,6 +41,7 @@ section#botoes {
     text-align: right;
 }
 section#botoes img.icon {
+    position: relative;
     width: 50px;
     margin: 10px;
     border-radius: 50%;
